@@ -1,0 +1,66 @@
+name: exprezon
+description: Exprezon App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_slider_drawer: ^2.1.3
+  page_transition: ^2.0.9
+  flutter_otp_text_field: ^1.1.1
+  flutter_svg: ^2.0.6
+  #flutter_riverpod: ^2.3.2
+  equatable: ^2.0.5
+  get: ^5.0.0-release-candidate-4
+  http: ^0.13.6
+  dio: ^5.1.2
+  #flutter_otp_text_field: ^1.1.1
+  flutter_secure_storage: ^8.0.0
+  google_fonts: ^4.0.4
+  url_launcher: ^6.1.11
+  shared_preferences:
+  firebase_messaging: ^14.6.1
+  firebase_storage: ^11.2.1
+  firebase_analytics: ^10.4.1
+  firebase_core: ^2.13.0
+  #google_sign_in: ^6.0.2
+  #sign_in_with_apple: ^4.3.0
+  flutter_local_notifications: ^14.1.0
+  share_extend: ^2.0.0
+  fluttertoast: ^8.2.1
+  get_storage: ^2.1.1
+  bottom_sheet: ^3.1.2
+  otp_text_field: ^1.1.3
+  image_picker: ^0.8.7+5
+  phone_text_field: ^0.0.2
+  font_awesome_flutter: ^10.4.0
+  intl_phone_field: ^3.1.0
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/trialico.png" 
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/cars/
+    - assets/images/
+    - assets/images/users/
